@@ -20,9 +20,9 @@
  
  3. 버튼을 더블클릭 하여 버튼 함수에 접속한다.
 
-// 함수 시작
-void CbeginDlg::OnBnClickedButton1()
 
+
+void CbeginDlg::OnBnClickedButton1()
 {
 
 	int a = GetDlgItemInt(IDC_EDIT1);    //a라는 정수에 첫 번째 EditControl 박스에 담긴 값을 담아준다. 괄호 안은 1번에 지정해준 ID
