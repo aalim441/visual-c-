@@ -6,8 +6,10 @@
 ### 계산기 (GetDlgItemInt)
 
 * 준비물!
- - EditControl 3개
- - Button 1개
+    
+    EditControl 3개
+    
+    Button 1개
  
 * 시작!
 
@@ -33,8 +35,10 @@ void CbeginDlg::OnBnClickedButton1()
 ### 계산기 (UpdateData(true))
 
 * 준비물!
- - EditControl 3개
- - Button 1개
+    
+    EditControl 3개
+    
+    Button 1개
 
 * 시작!
 
