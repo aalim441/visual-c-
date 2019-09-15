@@ -22,11 +22,17 @@
 
 // 함수 시작
 void CbeginDlg::OnBnClickedButton1()
+
 {
+
 	int a = GetDlgItemInt(IDC_EDIT1);    //a라는 정수에 첫 번째 EditControl 박스에 담긴 값을 담아준다. 괄호 안은 1번에 지정해준 ID
+	
 	int b = GetDlgItemInt(IDC_EDIT2);    //b도 마찬가지
+	
 	int c = a + b;    // 정수 c에 a와 b값을 더한다.
+	
 	SetDlgItemInt(IDC_EDIT3, c);    // 세 번째 editcontrol 박스에 정수 c를 셋팅해준다.
+
 }
 
 ---------------------------------------------------------------------------------------------------------------------------------------
